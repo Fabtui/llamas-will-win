@@ -1,0 +1,26 @@
+.search {
+  position: absolute;
+  left: -15px;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.search-bar {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 1px solid #FFA900;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+#fname {
+  padding: 5px;
+}

@@ -1,0 +1,129 @@
+.menu-container {
+  z-index: 99;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  padding: 0 25px 0 25px;
+  background: rgb(255,58,62);
+  background: -moz-linear-gradient(0deg, rgba(255,58,62,1) 0%, rgba(251,1,237,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(255,58,62,1) 0%, rgba(251,1,237,1) 100%);
+  background: linear-gradient(0deg, rgba(255,58,62,1) 0%, rgba(251,1,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3a3e",endColorstr="#fb01ed",GradientType=1);
+}
+
+.profile-menu {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-account {
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  padding-left: 15px;
+}
+
+.profile-text h2 {
+  font-size: 17px;
+  margin: 2px;
+  color: #FFA900;
+}
+
+.profile-text h3 {
+  font-size: 14px;
+  margin: 2px;
+  opacity: 0.8;
+  color: #000000;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.dashboard-text {
+  margin-left: 20px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.dashboard-text a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 200;
+  color: #000000;
+}
+
+.dashboard-text h3 {
+    opacity: 0.7;
+}
+
+.dashboard-text h3:hover {
+  opacity: 1;
+}
+
+.dashboard-icon i {
+  font-size: 20px;
+  color: #FFA900;
+  transition: 0.3s;
+}
+
+.dashboard-icon i:hover {
+  transform: rotate(900deg);
+  transition: 0.3s;
+}
+
+.menu-table {
+  margin-top: 50px;
+}
+
+.menu-table h3 {
+  color: #FFA900;
+}
+
+.menu-tab {
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.menu-tab:hover {
+  background-color: rgba(255, 255, 255, 0.116);
+  transition: 0.2s;
+}
+
+.menu-tab a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.menu-table a:hover {
+  opacity: 1;
+}
+
+.active {
+  border-bottom: 2px solid black;
+  opacity: 1;
+}
+
+.message-alert {
+  text-align: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  font-size: 11px;
+  padding: 3px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: 1px solid #FFA900;
+  top: 317px;
+  left: 245px;
+}
