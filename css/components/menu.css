@@ -109,10 +109,10 @@
 .menu-tab a {
   text-decoration: none;
   color: #000000;
-  opacity: 0.7;
+  opacity: 0;
 }
 
-.menu-table a:hover {
+.menu-tab:hover a {
   opacity: 1;
 }
 
@@ -140,4 +140,54 @@
   background-color: white;
   color: black;
   border: 1px solid #FFA900;
+}
+
+#messages {
+  transform: translateX(-143px);
+}
+
+#messages:hover {
+  transform: none;
+}
+
+#plans {
+  transform: translateX(-200px);
+}
+
+#plans:hover {
+  transform: none;
+}
+
+#training {
+  transform: translateX(-62px);
+}
+
+#training:hover {
+  transform: none;
+}
+
+#rules {
+  transform: translateX(-99px);
+}
+
+#rules:hover {
+  transform: none;
+}
+
+
+#news {
+  transform: translateX(-107px);
+}
+
+#news:hover {
+  transform: none;
+}
+
+
+#target {
+  transform: translateX(-105px);
+}
+
+#target:hover {
+  transform: none;
 }
