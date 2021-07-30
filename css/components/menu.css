@@ -16,6 +16,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
 }
 
 .profile-account {
@@ -151,7 +153,7 @@
 }
 
 #plans {
-  transform: translateX(-193px);
+  transform: translateX(-195px);
 }
 
 #plans:hover {
