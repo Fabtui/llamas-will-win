@@ -145,7 +145,7 @@
 }
 
 #messages {
-  transform: translateX(-143px);
+  transform: translateX(-141px);
 }
 
 #messages:hover {
@@ -187,7 +187,7 @@
 
 
 #target {
-  transform: translateX(-99px);
+  transform: translateX(-102px);
 }
 
 #target:hover {
