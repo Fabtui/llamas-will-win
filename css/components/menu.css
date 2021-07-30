@@ -186,10 +186,10 @@
 }
 
 
-#missions {
+#target {
   transform: translateX(-100px);
 }
 
-#missions:hover {
+#target:hover {
   transform: none;
 }
