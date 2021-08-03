@@ -118,11 +118,6 @@
   opacity: 1;
 }
 
-.active {
-  border-bottom: 2px solid black;
-  opacity: 1;
-}
-
 .message-tab {
   display: flex;
   align-items: center;

@@ -18,7 +18,9 @@
   opacity: 0.8;
 }
 
-.active {
+.tabactive {
   color: #fb01ed;
   border-bottom: 3px solid #fb01ed;
+  opacity: 1;
+  transition: 0.1s;
 }
